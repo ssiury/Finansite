@@ -1,0 +1,146 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#menu {
+    background: rgb(70, 78, 70);
+    display: flex;
+}
+#menu ul {
+    display: flex;
+}
+#menu ul li {
+    margin: 0vw 1vw 0vw 1vw;
+    list-style: none;
+    font-size: large;
+    font-weight: bold;
+}
+#menu ul li:hover {
+    background: rgb(60, 66, 60);
+}
+#menu ul li a:hover {
+    cursor: pointer;
+    color: white;
+}
+#menu ul li a {
+    text-decoration: none;
+    color: rgb(213, 207, 207);
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    font-size: 5vw;
+    text-decoration: underline;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+.apresentacao {
+    width: 60vw;
+}
+.apresentacao h2 {
+    margin-bottom: 3vh;
+    margin-top: 3vh;
+}
+footer {
+    margin-top: 10vh;
+    background: rgb(70, 78, 70);
+    height: 12vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer img {
+    width: 10vh;
+    margin: 0 1vh 0 1vh;
+    
+}
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1vh;
+}
+section #butao {
+    display: flex;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10vh;
+}
+section #visor {
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#butao  div {
+    width: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10vh;
+    height: 5vh;
+}
+#butao div:hover {
+    cursor: pointer;
+    font-weight: bold;
+}
+section #tabelaAtivo {
+    position: absolute;
+    background: orange;
+    height: 30vh;
+    width: 55vh;
+    border-radius: 2vh;
+    overflow: auto;
+}
+#tabelaAtivo ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+#tabelaAtivo ul li {
+    background-color: rgb(153, 166, 153);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1vh;
+}
+section #form {
+    position: absolute;
+    background: red;
+    height: 30vh;
+    width: 55vh;
+    border-radius: 2vh;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+#form input {
+    width: 15vw;
+    height: 3vh;
+    border-radius: 10vh;
+    text-align: center;
+}
+#form button {
+    width: 10vw;
+    height: 4vh;
+    border-radius: 10vh;
+}
